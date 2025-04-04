@@ -1,0 +1,507 @@
+:root {
+    --main--bg-color: #FFFFFF;
+    --main-bg-color-rgba: rgba(200,200,200, .5);
+    --main-text-color: #111111;
+    --selection-color: rgb(255, 238, 0);
+    --second-bg-color-rgba: rgba(148, 230, 141, 0.4);
+}
+* {
+
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.head_txt{
+    border-left: thin solid black;
+}
+#mainAccount{
+    display: grid;
+  grid-template-areas:
+"firstColAccount thirdColAccount secondColAccount" 
+"firstColAccount thirdColAccount secondColAccount";
+  grid-gap: 1em;
+}
+
+#signInForm{
+    border: solid;
+  margin-left: 35%;
+  margin-right: 40%;
+  background-color: coral;
+  margin-bottom: 30%;
+}
+
+#timeOfDay{
+    letter-spacing: 0;
+}
+#headMap{
+    font-size: xx-large;
+    letter-spacing: .2em;
+}
+
+#map { height: 20em; 
+    width:100%;
+    border-radius: .5em;
+    border: .5em solid #fff;
+    margin: .5em;
+    -webkit-box-shadow: 0 0 .5em .5em #ebebeb;
+    box-shadow: 0 0 .5em .5em #ebebeb;
+
+}
+#mapButton{
+    display: inline;
+}
+#headerHome{
+ font-size: 1.5em;
+ letter-spacing: 100%;  
+  
+}
+.pAbout {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.imgAbout{
+    width: 75%;
+    height: 6%;
+    text-align: left;
+    border-radius: .5em;
+    border: .5em solid #fff;
+    margin: .5em;
+    -webkit-box-shadow: 0 0 .5em .5em #ebebeb;
+    box-shadow: 0 0 .5em .5em #ebebeb;
+
+}
+
+.quizpage{
+    display:grid;
+    grid-template-areas: "s1" "s2" "s3";
+}
+.formpage{
+    display:grid;
+    
+    border: solid;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0%;
+    
+}
+
+.pForm{
+    text-indent: 2%;
+  padding: 0%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: justify;
+}
+
+
+.eventsimg{
+        max-width:25%;
+        float:left;
+        padding:5%;
+        
+}
+input[type=radio] {
+    cursor: pointer;
+    
+ }
+
+ input[type=checkbox]{
+    cursor:pointer;  
+ }
+
+ input[type=text], input[type=email],  input[type=checkbox],  input[type=password]{
+    float: right;
+    margin-right: 30%;
+ }
+.checkbox,.radio,.option,.contact{
+    border:solid red;
+}
+
+
+
+#headerPass{
+    font-size: medium;
+}
+
+.btnSubmit{
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:1em; 
+    padding:2em;
+}
+
+.btnSubmit:hover{
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 .5em #ff0101;
+    transition: 0.7s;
+    cursor:pointer;  
+}
+
+.adminImg{
+    max-width:25%;
+}
+
+table caption{
+    text-decoration: underline ;
+    padding: 4%;
+    font-weight: bold;
+    font-size: 100%;
+    
+    
+}
+
+#buttonsHome{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap:2em;
+    grid-area: buttonsHome;
+
+    
+}
+table{
+    padding: 1.5%;
+    
+}
+
+th{
+    border-bottom: solid white;
+    border-right: solid white;
+    background-color: whitesmoke;
+   
+    
+}
+
+#homePage{
+    display: grid;
+    grid-template-areas: "firstColHome thirdColHome secondColHome"
+                            "firstColHome thirdColHome secondColHome";
+
+    grid-gap:2em;
+}
+
+#firstColHome{
+    grid-area: firstColHome;
+    border-right: solid;
+    border-color: coral;
+}
+
+#secondColHome{
+    grid-area: secondColHome;
+    border-top: solid;
+    border-color: coral;
+}
+
+#thirdColHome{
+    grid-area: thirdColHome;
+}
+
+#firstColAccount{
+    grid-area: firstColAccount;
+}
+
+#secondColAccount{
+    grid-area: secondColAccount;
+    border-top:solid;
+    border-color: coral;
+}
+
+#thirdColAccount{
+    grid-area: thirdColAccount;
+    border-left: solid;
+    border-color: coral;
+}
+
+.formButton{
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:1em; 
+    font-size: xx-large;
+    width:100%
+   
+}
+#btnSubmitSignIn{
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:1em; 
+    font-size: xx-large;
+    width:50%
+   
+}
+
+.imgAbout:hover,#btnSubmitSignIn:hover,.formButton:hover{
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 .15em #f4a50d;
+    transition: 0.7s;
+    cursor:pointer;  
+}
+
+tr{
+
+    font-size: 100%;  
+}
+
+td{
+    border-bottom: solid white;
+    border-right: solid white;
+    background-color:rgba(200,200,200, .5);
+  
+}
+
+p{
+    text-indent: 7%;
+    padding: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    max-width: 70em;
+    line-height: 200%;
+    font-size: large;
+    text-align: justify;
+
+}
+nav a:link{
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    
+}
+.formImg{
+    max-width:25%;
+}
+nav{
+ 
+    padding: 3%;
+    margin: 0%;
+    display: grid;
+    grid-area: nav;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+    background-color:rgb(253, 253, 253);
+    color: coral;
+    text-shadow: -.05em 0 black, 0 0 black, 0 0 black, 0 -.05em black;
+    font-size: xx-large;
+}
+
+h1{
+    text-transform: uppercase;
+    display: grid;
+    justify-content: center;
+    color: black;
+  letter-spacing: 2em;
+
+    
+}
+
+h2{
+    margin:1% 3%;
+    display: grid;
+    justify-content:center;
+    padding: 2%;
+    font-size: 5em;
+    text-transform: uppercase;
+  }
+
+
+
+
+h3{
+    
+    font-size: xx-large;
+    text-transform: capitalize;
+    
+}
+#headerName{
+    font-size: xxx-large;
+    letter-spacing: 2em;
+    display: grid;
+    justify-content: center;
+    padding: 0%;
+}
+body{
+    display: grid;
+    grid-template-areas:
+    "header header header   " 
+    "nav nav nav"
+    "main   main   main  " 
+    "footer footer footer";
+    position: relative;
+    max-width:100%;
+}
+
+header {
+    grid-area: header;
+    background-color: black;
+    color:white;
+    padding:1%;
+    display: grid;
+    border-bottom: thin solid;
+    letter-spacing:2em;
+
+}
+
+.activePage{
+    color: coral;
+text-shadow: -.05em 0 black, 0 0 black, 0 0 black, 0 -.05em black;
+font-size: xx-large;
+}
+
+.s1{
+    grid-area: s1;
+    margin-left:10%;
+}
+
+.s2{
+    grid-area:s2;
+    margin: 2%;
+    padding: 2%;
+    background:black;
+  }
+
+.s3{
+    grid-area:s3;
+}
+
+main{
+    display: grid;
+    grid-area:main;
+    position: relative;
+    padding:2%;
+  
+}
+
+img{
+    max-width: 100%;
+
+    
+}
+#homeImg {
+    border-radius: .5em;
+	border: .5em solid #fff;
+	margin: .5em;
+    -webkit-box-shadow: 0 0 .5em .5em #ebebeb;
+    box-shadow: 0 0 .5em .5em #ebebeb;
+    max-width: 100%;
+    height: 50%;
+}
+
+#accountImg{
+    border-radius: .5em;
+	border: .5em solid #fff;
+	margin: .5em;
+    -webkit-box-shadow: 0 0 .5em .5em #ebebeb;
+    box-shadow: 0 0 .5em .5em #ebebeb;
+    max-width: 100%;
+    height: 50%;
+    margin-left:14%;
+}
+
+a{
+    margin-left:-10%;
+}
+
+footer{
+    margin: 0%;
+    grid-area: footer;
+}
+
+
+/* Filter and search options */
+#search {
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+
+/* Search input */
+#filter-search {
+	font-size: 120%;
+	border: .5em solid #999;
+	padding: .5em;
+}
+
+#filter-search:hover {
+	border: .25em solid #666;
+}
+
+#filter-search:focus {
+	border: .25em solid #00cccc;
+	outline: none;
+}
+
+
+
+/*########## Gallery of images from JavaScript book by Jon Duckett################*/
+#gallery {
+	text-align: center;
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+#gallery img {
+	width: 200px;
+	height: 200px;
+	border-radius: 3px;
+	border: .5em solid #fff;
+	margin: 6px;
+    -webkit-box-shadow: 0 0 3px 3px #ebebeb;
+    box-shadow: 0 0 3px 3px #ebebeb;
+	float: left;
+}
+/*##########################################################*/
+
+#mainAbout{
+    display: grid;
+    grid-area: main;
+    position: relative;
+    padding: 2%;
+    text-align: center;
+}
+
+ul {
+	list-style-position: inside;
+	width: 100%;
+	max-width: 100%;
+	background: #f7e86996;
+	box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.15);
+	padding: 0;
+	margin: 0;
+	border-radius: 0.1rem;
+    
+}
+
+li {
+	padding: 0 0 0 1rem;
+    font-family: 'Sofia';
+    font-size: x-large;
+    padding: .5em;
+}
+
+li:not(:last-child) {
+	border-bottom: 1px solid lightblue;
+    font-family: 'Sofia';
+    font-size: x-large;
+    padding: .5em;
+}
+
+li:first-child {
+	margin-top: 1rem;
+    font-family: 'Sofia';
+    font-size: x-large;
+    padding: .5em;
+}
+
+li:last-child {
+	margin-bottom: 1rem;
+    font-family: 'Sofia';
+    font-size: x-large;
+    padding: .5em;
+}

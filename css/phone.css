@@ -1,0 +1,81 @@
+body{
+    display: grid;
+    grid-template-areas:
+    "header "
+    "nav "
+    "main" 
+    "footer";
+    position: relative;
+    max-width:100%;
+}
+nav{
+    font-size: large;
+}
+main{
+    display: grid;
+    grid-area:main;
+    grid-template-areas:"s2" "s1" "s3";
+    position: relative;
+    padding:2%;
+  
+}
+#gallery img{
+    width:25%;
+    height:25%;
+}
+#homeImg{
+    max-width: 75%;
+}
+#accountImg {
+    max-width: 50%;
+    max-height: 50%;
+}
+.formButton{
+    font-size:large;
+}
+#mainAccount {
+   
+    grid-template-areas:
+  "firstColAccount thirdColAccount " 
+  "firstColAccount secondColAccount";
+   
+  }
+
+#headerHome{
+    font-size:1em;
+}
+.activePage{
+    font-size: large;
+}
+.formpage{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+table{
+    max-width:50%;
+    
+}
+.formButton:hover{
+    outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 .15em #f4a50d;
+  transition: 0.7s;
+  cursor: pointer;
+}
+h1{
+    max-width:50%;
+}
+.tblUser{
+    max-width:25%;
+}
+
+#headerName{
+    font-size: x-large;
+}
+#signInForm{
+    margin-left:0%;
+    margin-right:0%;
+}
+h2{
+    font-size:2em;
+}
